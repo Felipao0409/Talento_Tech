@@ -1,0 +1,175 @@
+body {
+    margin: 20px;
+    padding: 0px;
+    
+
+}
+
+header{
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+#section_uno{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section{
+    display: flex;
+} */
+
+#aficiones{
+    text-align: right;
+    font-size: 50px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    
+}
+
+.imagen{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+.imagen2{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+.article{
+    padding: 20px;
+    background-color: rgb(99, 206, 255);
+    border-top-left-radius: 30px;
+    border-end-end-radius: 30px;
+    margin: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgb(221, 175, 115);
+    border-width: 5px;
+    flex-basis: calc(33% - 20px);
+
+}
+
+/* #article_uno{
+    
+    padding: 20px;
+    background-color: rgb(99, 206, 255);
+    border-top-left-radius: 30px;
+    border-end-end-radius: 30px;
+    margin: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgb(221, 175, 115);
+    border-width: 5px;
+    
+}
+
+#article_dos{
+
+    padding: 20px;
+    background-color: rgb(243, 202, 67);
+    border-top-left-radius: 30px;
+    border-end-end-radius: 30px;
+    margin: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgb(221, 175, 115);
+    border-width: 5px;
+}
+#article_tres{
+    padding: 20px;
+    background-color: rgb(250, 151, 58);
+    border-top-left-radius: 30px;
+    border-end-end-radius: 30px;
+    margin: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgb(221, 175, 115);
+    border-width: 5px;
+} */
+
+p{
+    text-align: justify;
+    
+}
+
+#section_dos{
+    background: rgb(194, 189, 189);
+    padding: 1%;
+    border-top-left-radius: 30px;
+    border-end-end-radius: 30px;
+}
+h2{
+    font-family: cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+#article_cuatro{
+    padding: 1%;
+    background-color: rgb(238, 230, 222);
+    border-top-left-radius: 30px;
+    border-end-end-radius: 30px;
+    margin: 2%;
+    border-style: solid;
+    border-color: rgb(170, 166, 162);
+    border-width: 5px;
+    
+}
+
+#img_musica{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    height: 60%;
+    width: 20%;
+    
+}
+
+#p_aficiones{
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+
+footer{
+    background-color: rgb(7, 7, 7);
+    padding: 1px;
+    margin: 20px;
+    width: auto;
+ 
+}
+
+#id_footer{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}

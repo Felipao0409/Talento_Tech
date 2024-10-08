@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 80%;         
+            font-family: Arial, sans-serif;
+            text-align: center;            
+            
+        }
+
+        th,td {
+            padding: 15px;
+            text-align: center;
+            width: 10%;
+            height: 10px;
+            font-size: 18px;
+            background-color: #f2f2f2;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            opacity: 0.9;
+            
+        }
+
+        th {
+            background-color: #034ce9;
+            color: rgb(211, 208, 208);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tablas</h1>
+    <!-- <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>telefono</th>
+            <th>Correo</th>
+        </tr>
+
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>12345678</td>
+            <td>juan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Lopez</td>
+            <td>98765432</td>
+            <td>maria@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Gomez</td>
+            <td>34567890</td>
+            <td>pedro@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>Martinez</td>
+            <td>67890123</td>
+            <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>Rodriguez</td>
+            <td>01234567</td>
+            <td>jose@gmail.com</td>
+        </tr>
+    </table> -->
+
+    <table>
+        <h2>Horario de clase</h2>
+        <thead>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>            
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00-09:00</td>
+                <td rowspan="2">Matematicas</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Ingles</td>
+                <td>Educacion Fisica</td>
+                
+                <tr>
+                    <td>09:00-10:00</td>
+                    <td>Geografia</td>
+                    <td>Fisica</td>
+                    <td>Matematicas</td>
+                    <td>Arte</td>
+                </tr>
+
+                <tr>
+                    <td>10:00-11:00</td>
+                    <td>ciencias</td>
+                    <td colspan="2">Literatura</td>
+                    <td>Quimica</td>
+                    <td>Musica</td>
+                </tr>
+
+            <tr>
+                <td>11:00-12:00</td>
+                <td>Ingles</td>
+                <td>Matematicas</td>
+                <td rowspan="2">Educacion Fisica</td>
+                <td>Historia</td>
+                <td>Ciencias sociales</td>
+            </tr>
+
+            <tr>
+                <td>12:00-13:00</td>
+                <td>Arte</td>
+                <td>Geografia</td>
+                <td>Fisica</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

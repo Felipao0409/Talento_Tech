@@ -1,0 +1,105 @@
+/* Estilos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Estilos para la sección principal */
+#seccion1 {
+    background-image: linear-gradient(to bottom, #f0f0f0, #ccc);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+#seccion1 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#seccion1 p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* Estilos para la sección lateral */
+#sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 2em;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 2em;
+}
+
+#sidebar form {
+    margin-bottom: 2em;
+}
+
+#sidebar label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#sidebar input[type="text"],
+#sidebar input[type="email"] {
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+#sidebar input[type="submit"] {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#sidebar input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}

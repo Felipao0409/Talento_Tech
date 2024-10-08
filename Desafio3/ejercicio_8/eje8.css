@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 30px;
+    background: #333;
+    color: #ffff;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabla>div {
+    background: #697C88;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+.tabla {
+    font-family: sans-serif;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template:
+        'celda1 celda1 celda2 celda2'
+        'celda3 celda3 celda4 celda4'
+        'celda5 celda5 celda4 celda4';
+    margin: 0 auto;
+
+}
+
+.celda1 {
+    grid-area: celda1
+}
+
+.celda2 {
+    grid-area: celda2
+}
+
+.celda3 {
+    grid-area: celda3
+}
+
+.celda4 {
+    grid-area: celda4
+}
+
+.celda5 {
+    grid-area: celda5
+}
+
+.listas {
+    background: white;
+    display: grid;
+    grid-gap: 1px;
+    grid-template: ' a a ' auto
+}
+
+.item1 {
+    grid-area: a
+}
+
+.listas div {
+    background: #DBDAF5;
+    padding: 18px;
+    color: black;
+}

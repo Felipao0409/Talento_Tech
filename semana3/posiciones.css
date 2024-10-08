@@ -1,0 +1,49 @@
+#cabecera {
+    background-color: pink;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 10%;
+    width: 93%;
+    }
+    #indice {
+    background-color: aqua;    
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    width: 25%;
+    height: 75%;
+    }
+
+    #contenido {
+        background-color: rgb(177, 230, 125);
+        position: absolute;
+        top: 13%;
+        left: 30%;
+        width: 65%;
+        height: 75%;
+        }
+        #pie {
+        background-color: rgb(113, 243, 113);
+        position: absolute;
+        top: 89%;
+        left: 2%;
+        height: 10%;
+        width: 93%;
+        }
+
+        #cabecera,
+#contenido,
+#indice,
+#piedepagina {
+border: solid 1px
+}
+
+#imagen {
+    float: right;
+    /*Posicionamos la imagen a la derecha con el
+    texto “flotando” a la izquierda*/
+    width: 11%;
+    /*Definimos el tamaño de la caja como un 11% de la anchura de la caja
+    “contenido”*/
+    }

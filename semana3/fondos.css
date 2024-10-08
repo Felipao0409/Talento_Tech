@@ -1,0 +1,24 @@
+body{
+
+    background-image: url(./img/mondrian.jpg);
+}
+
+#cabecera{
+
+    background-image: url(./img/monet2.jpg);
+}
+
+#indice{
+
+    background-image: url(./img/kandinsky.jpg);
+}
+
+#contenido{
+
+    background-image: url(./img/monet.gif);
+}
+
+#pie{
+
+    background-image: url(./img/water-fizzle.jpg);
+}

@@ -1,0 +1,129 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.banner{
+    background-image: url(./img14/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-top: -60px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header-contenido{
+    position:absolute;
+    z-index: 100;
+}
+
+.logo{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.banner-descripcion{
+    position: absolute;
+    text-align: center;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 20px; 
+}
+
+.boton1{
+    background: rgb(139, 243, 139);
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.boton1:hover{
+    border: 2px solid rgb(139, 243, 139);
+    cursor: pointer;
+}
+
+.galeria{
+    margin: 20px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.equipo{
+    padding: 30px;
+}
+
+.equipo img{
+    border-radius: 50%;
+}
+
+.grid-equipo{
+    grid-gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.info h3{
+    color: rgb(49, 165, 126);
+    font-size: 30px;
+}
+
+.info-colum{
+    margin: 20px;
+}
+
+.info .contenedor{
+    display: grid;
+    grid-gap: 10px;
+}
+
+.banner2{
+    background-image: url(./img14/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: fixed;
+    position: relative;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card{
+    
+    width: 20%;
+    height: auto;
+}
+

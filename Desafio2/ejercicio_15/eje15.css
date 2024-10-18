@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0%;
+    font-family: Verdana,sans-serif;
+    background: rgb(255, 115, 0);
+    
+}
+
+header{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #f5c688;
+    color: #fcfbfb;
+    font-size: 35px;
+    text-align: lighter;
+}
+
+.cubo{
+    float: left;
+    margin-right: 20px;
+    padding: 8px;
+}
+
+.titulo{
+    color: black;
+    font-size: 4 rem;
+}
+
+nav{
+    background: rgb(255, 115, 0);;
+    padding: 1%;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 0 0 0 2px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1, 5rem;
+    font-weight: lighter;
+}
+
+nav li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.surface{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+}
+
+.imgsurface{
+    display: inline-block;
+    justify-content: flex-end;
+    max-width: 30%;
+    height: auto;
+    margin-left: 30%;
+}
+
+.caracter{
+    color: blue;
+}
+
+.titulo2{
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+.principal{
+    background-color: silver;
+    
+}
+
+.productos{
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    vertical-align: top;
+    margin: 2% 1.5%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid black;
+
+}
+
+.dispositivo{
+    text-align: center;
+}
+
+.imgarticulo{
+    max-width: 10%;
+    height: auto;
+    margin: 10px;
+}
+
+.redes{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+}
+
+.redes img{
+    margin: 10px;
+    max-width: 60px;
+    height: auto;
+}
+
+.redes img:hover{
+    transform: scale(1,1);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer{
+    background-color: #f8f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-decoration: none;
+}
+
+.footer-container a{
+    color: gray;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-container a:hover{
+    color: black;
+}
+
+
+.datos{
+    font-size: 1.5rem;
+    color: gray;
+    text-align: center;
+}
+
+.footer-column ul{
+    display: inline;
+    margin-right: 0 0 0 2px;
+    list-style: none;
+}

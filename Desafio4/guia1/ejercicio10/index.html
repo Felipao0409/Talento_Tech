@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="eje10.js"></script>
+</head>
+<body>
+    <div id="miDiv">Pasa el mouse por aquí</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo de eventos en JavaScript</title>
+</head>
+<body>
+<div id="miDiv">Pasa el mouse por aquí</div>
+<script>
+var div = document.getElementById("miDiv");
+div.addEventListener("mouseover", function() {
+alert("¡Hola! Estás pasando el mouse por encima de mí.");
+});
+</script>
+</body>
+</html>

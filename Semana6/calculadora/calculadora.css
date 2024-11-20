@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f03434;
+    font-family: Arial, sans-serif;
+    background: rgb(241, 236, 237);
+}
+
+
+button:hover {
+    background-color: #6af348;
+}
+
+.calculator{
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    background-color: #69c8e0e5;
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}

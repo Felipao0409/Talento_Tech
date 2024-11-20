@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ejemplos2/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Titulo uno</h1>
+    <h1>Titulo de ejemplo</h1>
+    <div class="botones" id="ejemplo">
+        <button onclick="cambiarColorEsp(0)">cambiar Caja 1</button>
+        <button onclick="cambiaTodos()">cambiar Todos</button>
+        <button onclick="resetear()">resetear</button>
+        <button onclick="cambiarBorde()">cambiar borde</button>
+        <button onclick="cambiarTamano()">cambiar tamaño</button>
+        <button onclick="circulo()">hacer circulo</button>
+    </div>
+    <div class="contenedor">
+        <div class="caja" onclick="cambiarColor(this)">haz click aqui</div>
+        <div class="caja" onclick="cambiarColor(this)">haz click aqui</div>
+        <div class="caja" onclick="cambiarColor(this)">haz click aqui</div>
+        <div class="caja" onclick="cambiarColor(this)">haz click aqui</div>
+    </div>
+    <script src="./scrip.js"></script>
+</body>
+</html>

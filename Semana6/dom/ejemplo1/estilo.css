@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.ejemplo{
+    background-color: #dc8e8e;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.resaltado{
+    background-color: rgb(152, 188, 24);
+}
+.resultado {
+    background-color: #14b866a4;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
